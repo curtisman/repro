@@ -4,14 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc -b tsconfig.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc -b tsconfig.json"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@fluidframework/core-interfaces": "^0.33.0"
-  },
+  "license": "MIT",
   "devDependencies": {
     "typescript": "~4.1.2"
   }

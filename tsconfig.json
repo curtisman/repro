@@ -2,7 +2,6 @@
     "compilerOptions": {
         "target": "es2017",
         "module": "esnext",
-        "jsx": "react",
         "declaration": true,
         "declarationMap": true,
         "sourceMap": true,
@@ -17,6 +16,10 @@
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "importHelpers": true,
-        "outDir": "./dist"
-    }
+        "outDir": "./dist",
+        "rootDir": "./src",
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
 }
