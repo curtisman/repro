@@ -8,7 +8,7 @@ import { IExtend1 } from "./extend1";
 
 export function test(request: IRequestHeader, handler?: IExtend1) {
     if (handler) {
-        return request.blah;
+        return request.base;
     }
     return undefined;
 }

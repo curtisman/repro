@@ -4,5 +4,5 @@
  */
 
 export interface IRequestHeader {
-    [index: string]: any;
+    base: any;
 }

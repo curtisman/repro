@@ -4,9 +4,8 @@
  */
 
 export type stuff = boolean;
-
 export interface IExtend2 {
-    ["extend2"]: stuff;
+    extend2: stuff;
 }
 
 declare module "./module" {
