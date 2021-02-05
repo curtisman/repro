@@ -4,15 +4,9 @@
  */
 
 import { stuff } from "./extend2";
-
-/**
- * Set of Request Headers that the Loader understands and may inspect or modify
- */
-export interface IExtend1 {
-    extend1: stuff;
-}
-
+export type exportedType = string;
 declare module "./module" {
-    // eslint-disable-next-line @typescript-eslint/no-empty-interface
-    export interface IRequestHeader extends Partial<IExtend1> { }
+    export interface IRequestHeader {
+        extend1: stuff;
+    }
 }

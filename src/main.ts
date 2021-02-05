@@ -4,10 +4,10 @@
  */
 
 import { IRequestHeader } from "./module";
-import { IExtend1 } from "./extend1";
+import { exportedType } from "./extend1";
 
-export function test(request: IRequestHeader, handler?: IExtend1) {
-    if (handler) {
+export function test(request: IRequestHeader, value: exportedType) {
+    if (value) {
         return request.base;
     }
     return undefined;

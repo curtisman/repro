@@ -4,11 +4,8 @@
  */
 
 export type stuff = boolean;
-export interface IExtend2 {
-    extend2: stuff;
-}
-
 declare module "./module" {
-    // eslint-disable-next-line @typescript-eslint/no-empty-interface
-    export interface IRequestHeader extends Partial<IExtend2> { }
+    export interface IRequestHeader { 
+        extend2: stuff;
+    }
 }
