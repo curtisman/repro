@@ -9,7 +9,7 @@ import { stuff } from "./extend2";
  * Set of Request Headers that the Loader understands and may inspect or modify
  */
 export interface IExtend1 {
-    ["extend1"]: stuff;
+    extend1: stuff;
 }
 
 declare module "./module" {
